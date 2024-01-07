@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, I am a TextView Owner of Element"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <Button android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, I am a Button"
+        android:layout_marginLeft="125sp"
+        android:layout_marginBottom="50sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:textColor="@color/black"
+        android:hint="Hey Boi"
+        android:id="@+id/textView1"
+        android:textSize="25dp"
+        android:layout_marginLeft="125sp"
+        android:layout_marginBottom="50sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4B8FF4"
+        android:text="Button Open"
+        android:layout_marginLeft="125sp"
+        android:layout_marginBottom="50sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button Close"
+        android:id="@+id/button_third"
+        android:layout_marginLeft="125sp"
+        android:layout_marginBottom="50sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch Activity"
+        android:id="@+id/button_switch"
+        android:layout_marginLeft="125sp"
+        android:layout_marginBottom="50sp"
+        android:backgroundTint="#9090EC"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
